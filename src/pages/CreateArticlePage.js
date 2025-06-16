@@ -9,7 +9,7 @@ export class CreateArticlePage {
     this.tagInput = page.locator('input[placeholder="Enter tags"]');
     this.publishButton = page.locator('button', { hasText: 'Publish Article' });
     this.articleTitle = page.locator('h1');
-    this.errorMessage = page.locator('.error-messages li'); // або уточни локатор
+    this.errorMessage = page.locator('.error-messages');
   }
 
   async fillTitle(title) {

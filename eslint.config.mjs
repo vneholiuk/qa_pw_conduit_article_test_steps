@@ -26,7 +26,7 @@ export default [
         {
           code: 80,
           comments: 80,
-          ignorePattern: 'import *',
+          ignorePatterns: 'import *',
         },
       ],
       'playwright/expect-expect': 'off',
